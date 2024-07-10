@@ -42,6 +42,7 @@ set(LIBROOT "${SRCROOT}/lib")
 set(BINROOT "${SRCROOT}/bin")
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -g -Wno-incompatible-pointer-types")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fpermissive")
 # Hide warnings for implicit-int and incompatible-pointer-types
 
 # Set CMake build-type. If it not supplied by the user (either directly as an argument of through
